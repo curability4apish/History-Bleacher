@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "History Bleacher",
+  "version": "1.0",
+  "description": "Deletes browsing history older than 2 days when a tab is closed.",
+  "permissions": [
+    "history",
+    "tabs"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "https://github.com/curability4apish/History-Bleacher"
+  }
+}
